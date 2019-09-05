@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addTodo } from './actions/todos';
+import { addTodo } from './../actions/todos';
 
 function TodoList() {
     //const qty = 2; caso queira que o useSelector só rode quando esse valor se alterar, vamos passar
